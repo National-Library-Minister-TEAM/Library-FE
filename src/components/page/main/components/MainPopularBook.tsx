@@ -67,6 +67,7 @@ const MainPopularBook = () => {
               year={Number(book.publicationYear)}
               loanCount={book.loanCount}
               onDetail={() => {}}
+              isbn={book.isbn13}
             />
           ))
         )}
